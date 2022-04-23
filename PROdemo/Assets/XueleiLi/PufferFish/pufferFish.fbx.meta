@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 9f258d018033a46a5bfb9e982e7301d3
+timeCreated: 1431721527
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: body
+    100002: eyeLeft
+    100004: eyeRight
+    100006: joint10
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint14
+    100016: joint15
+    100018: joint16
+    100020: joint17
+    100022: joint2
+    100024: joint3
+    100026: joint4
+    100028: joint5
+    100030: joint6
+    100032: joint7
+    100034: joint8
+    100036: joint9
+    100038: JointsNormal
+    100040: //RootNode
+    100042: teethBottom
+    100044: teethTop
+    100046: tongue
+    100048: bodyBlendShape
+    100050: fishNormal
+    400000: body
+    400002: eyeLeft
+    400004: eyeRight
+    400006: joint10
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint14
+    400016: joint15
+    400018: joint16
+    400020: joint17
+    400022: joint2
+    400024: joint3
+    400026: joint4
+    400028: joint5
+    400030: joint6
+    400032: joint7
+    400034: joint8
+    400036: joint9
+    400038: JointsNormal
+    400040: //RootNode
+    400042: teethBottom
+    400044: teethTop
+    400046: tongue
+    400048: bodyBlendShape
+    400050: fishNormal
+    2300000: eyeLeft
+    2300002: eyeRight
+    2300004: teethBottom
+    2300006: teethTop
+    2300008: tongue
+    2300010: bodyBlendShape
+    3300000: eyeLeft
+    3300002: eyeRight
+    3300004: teethBottom
+    3300006: teethTop
+    3300008: tongue
+    3300010: bodyBlendShape
+    4300000: body
+    4300002: teethTop
+    4300004: tongue
+    4300006: teethBottom
+    4300008: eyeRight
+    4300010: eyeLeft
+    4300012: bodyBlendShape
+    7400000: swimming
+    7400002: biting
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: swimming
+      takeName: pufferFish_rig
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: JointsNormal
+        weight: 1
+      - path: JointsNormal/joint2
+        weight: 1
+      - path: JointsNormal/joint2/joint3
+        weight: 1
+      - path: JointsNormal/joint2/joint3/joint4
+        weight: 1
+      - path: JointsNormal/joint5
+        weight: 1
+      - path: JointsNormal/joint5/joint6
+        weight: 1
+      - path: JointsNormal/joint7
+        weight: 1
+      - path: JointsNormal/joint7/joint8
+        weight: 1
+      - path: JointsNormal/joint13
+        weight: 1
+      - path: JointsNormal/joint13/eyeLeft
+        weight: 1
+      - path: JointsNormal/joint13/eyeRight
+        weight: 1
+      - path: JointsNormal/joint13/joint9
+        weight: 1
+      - path: JointsNormal/joint13/joint9/joint10
+        weight: 1
+      - path: JointsNormal/joint13/joint9/teethBottom
+        weight: 1
+      - path: JointsNormal/joint13/joint9/tongue
+        weight: 1
+      - path: JointsNormal/joint13/joint11
+        weight: 1
+      - path: JointsNormal/joint13/joint11/joint12
+        weight: 1
+      - path: JointsNormal/joint13/joint11/teethTop
+        weight: 1
+      - path: JointsNormal/joint14
+        weight: 1
+      - path: JointsNormal/joint14/joint15
+        weight: 1
+      - path: JointsNormal/joint16
+        weight: 1
+      - path: JointsNormal/joint16/joint17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: biting
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 36
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: JointsNormal
+        weight: 1
+      - path: JointsNormal/joint2
+        weight: 1
+      - path: JointsNormal/joint2/joint3
+        weight: 1
+      - path: JointsNormal/joint2/joint3/joint4
+        weight: 1
+      - path: JointsNormal/joint5
+        weight: 1
+      - path: JointsNormal/joint5/joint6
+        weight: 1
+      - path: JointsNormal/joint7
+        weight: 1
+      - path: JointsNormal/joint7/joint8
+        weight: 1
+      - path: JointsNormal/joint13
+        weight: 1
+      - path: JointsNormal/joint13/eyeLeft
+        weight: 1
+      - path: JointsNormal/joint13/eyeRight
+        weight: 1
+      - path: JointsNormal/joint13/joint9
+        weight: 1
+      - path: JointsNormal/joint13/joint9/joint10
+        weight: 1
+      - path: JointsNormal/joint13/joint9/teethBottom
+        weight: 1
+      - path: JointsNormal/joint13/joint9/tongue
+        weight: 1
+      - path: JointsNormal/joint13/joint11
+        weight: 1
+      - path: JointsNormal/joint13/joint11/joint12
+        weight: 1
+      - path: JointsNormal/joint13/joint11/teethTop
+        weight: 1
+      - path: JointsNormal/joint14
+        weight: 1
+      - path: JointsNormal/joint14/joint15
+        weight: 1
+      - path: JointsNormal/joint16
+        weight: 1
+      - path: JointsNormal/joint16/joint17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

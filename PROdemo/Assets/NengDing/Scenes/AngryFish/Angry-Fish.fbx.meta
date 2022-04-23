@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: 1da5729eac8f6441e8f6381f071c9c90
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AllJoints
+    100002: //RootNode
+    100004: Fish 1
+    100006: joint10
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint14
+    100016: joint15
+    100018: joint16
+    100020: joint17
+    100022: joint18
+    100024: joint19
+    100026: joint20
+    100028: joint21
+    100030: joint22
+    100032: joint23
+    100034: joint24
+    100036: joint25
+    100038: joint26
+    100040: joint27
+    100042: joint28
+    100044: joint29
+    100046: joint30
+    100048: joint31
+    100050: joint31 1
+    100052: joint32
+    100054: joint33
+    100056: joint33 1
+    100058: joint34
+    100060: joint35
+    100062: joint36
+    100064: joint37
+    100066: joint38
+    100068: joint39
+    100070: joint4
+    100072: joint40
+    100074: joint5
+    100076: joint6
+    100078: joint7
+    100080: joint8
+    100082: joint9
+    100084: left_BottomLid
+    100086: left_EyeLids
+    100088: left_TopLid
+    100090: LeftEyeBall
+    100092: MainBody
+    100094: right_BottomLid
+    100096: right_EyeLids
+    100098: right_TopLid
+    100100: RightEyeBall
+    100102: Tongue
+    100104: transform1
+    100106: transform2
+    100108: transform3
+    100110: transform4
+    100112: transform5
+    100114: transform6
+    100116: transform7
+    100118: transform8
+    100120: Tongue1
+    400000: AllJoints
+    400002: //RootNode
+    400004: Fish 1
+    400006: joint10
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint14
+    400016: joint15
+    400018: joint16
+    400020: joint17
+    400022: joint18
+    400024: joint19
+    400026: joint20
+    400028: joint21
+    400030: joint22
+    400032: joint23
+    400034: joint24
+    400036: joint25
+    400038: joint26
+    400040: joint27
+    400042: joint28
+    400044: joint29
+    400046: joint30
+    400048: joint31
+    400050: joint31 1
+    400052: joint32
+    400054: joint33
+    400056: joint33 1
+    400058: joint34
+    400060: joint35
+    400062: joint36
+    400064: joint37
+    400066: joint38
+    400068: joint39
+    400070: joint4
+    400072: joint40
+    400074: joint5
+    400076: joint6
+    400078: joint7
+    400080: joint8
+    400082: joint9
+    400084: left_BottomLid
+    400086: left_EyeLids
+    400088: left_TopLid
+    400090: LeftEyeBall
+    400092: MainBody
+    400094: right_BottomLid
+    400096: right_EyeLids
+    400098: right_TopLid
+    400100: RightEyeBall
+    400102: Tongue
+    400104: transform1
+    400106: transform2
+    400108: transform3
+    400110: transform4
+    400112: transform5
+    400114: transform6
+    400116: transform7
+    400118: transform8
+    400120: Tongue1
+    4300000: Tongue
+    4300002: right_TopLid
+    4300004: right_BottomLid
+    4300006: left_TopLid
+    4300008: left_BottomLid
+    4300010: RightEyeBall
+    4300012: LeftEyeBall
+    4300014: MainBody
+    7400000: swim1
+    7400002: bite1
+    7400004: bite2
+    7400006: resetPose
+    7400008: jump
+    7400010: flip
+    7400012: silly
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: left_BottomLid
+    13700002: left_TopLid
+    13700004: LeftEyeBall
+    13700006: MainBody
+    13700008: right_BottomLid
+    13700010: right_TopLid
+    13700012: RightEyeBall
+    13700014: Tongue
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: swim1
+      takeName: AngryFish_Animation
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bite1
+      takeName: AngryFish_Animation
+      firstFrame: 21
+      lastFrame: 31
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bite2
+      takeName: AngryFish_Animation
+      firstFrame: 32
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: AngryFish_Animation
+      firstFrame: 46
+      lastFrame: 83
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: flip
+      takeName: AngryFish_Animation
+      firstFrame: 86
+      lastFrame: 125
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: silly
+      takeName: Take 001
+      firstFrame: 126
+      lastFrame: 149
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AllJoints
+        weight: 1
+      - path: AllJoints/joint4
+        weight: 1
+      - path: AllJoints/joint4/joint5
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6
+        weight: 1
+      - path: AllJoints/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: AllJoints/joint4/joint8
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10
+        weight: 1
+      - path: AllJoints/joint4/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: AllJoints/joint4/joint12
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint30/joint31
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint32/joint33
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint34/joint31 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint35/joint33 1
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint39
+        weight: 1
+      - path: AllJoints/joint4/joint12/joint13/joint40
+        weight: 1
+      - path: AllJoints/joint4/joint17
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19
+        weight: 1
+      - path: AllJoints/joint4/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: AllJoints/joint4/joint21
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23
+        weight: 1
+      - path: AllJoints/joint4/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: AllJoints/joint25
+        weight: 1
+      - path: AllJoints/joint25/joint26
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: AllJoints/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: AllJoints/joint36
+        weight: 1
+      - path: AllJoints/joint36/joint37
+        weight: 1
+      - path: AllJoints/joint36/joint37/joint38
+        weight: 1
+      - path: Fish 1
+        weight: 1
+      - path: Fish 1/LeftEyeBall
+        weight: 1
+      - path: Fish 1/MainBody
+        weight: 1
+      - path: Fish 1/RightEyeBall
+        weight: 1
+      - path: left_EyeLids
+        weight: 1
+      - path: left_EyeLids/left_BottomLid
+        weight: 1
+      - path: left_EyeLids/left_TopLid
+        weight: 1
+      - path: right_EyeLids
+        weight: 1
+      - path: right_EyeLids/right_BottomLid
+        weight: 1
+      - path: right_EyeLids/right_TopLid
+        weight: 1
+      - path: Tongue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
