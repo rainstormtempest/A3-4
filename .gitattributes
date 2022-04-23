@@ -2,3 +2,4 @@
 * text=auto
 *.resS filter=lfs diff=lfs merge=lfs -text
 *.assets filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
